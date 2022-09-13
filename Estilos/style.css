@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{ --backround: color
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:'Poppins';
+}
+header{
+    background-color: rgb(46, 42, 42);
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+    position: fixed;
+    top: 0;
+
+}
+.logo{
+height: 50%;
+
+}
+.carrito{
+height: 40px;
+}
+.navbar,
+.navbar-list{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{gap: 150px;}
+.navbar-list{gap: 30px;}
+.navbar-list a{ color: rgb(214, 214, 218);}
+.navbar-list a:hover{font-weight: bold}
+.carrito{
+    border: 1px solid rgb(214, 214, 218) ;
+    padding: 5px 9px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;}
+
