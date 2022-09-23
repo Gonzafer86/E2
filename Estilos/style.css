@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-:root{ --backround: color
+:root
+body{
+    font-family: 'Poppins';
+}
+
+{ --backround: color
 }
 * {
     margin: 0;
@@ -44,4 +49,66 @@ height: 40px;
     border-radius: 10px;
     margin-top: 10px;
     cursor: pointer;}
+
+main{background-color:rgb(192, 192, 185);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(34, 30, 30);
+    width: 100%;
+    }
+
+/* portada */
+#portada{
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portada-info{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;  
+}
+
+.portada-info h1{
+    font-family: 'Poppins';
+    font-size: 45px;    
+    width: 80%;
+    min-width: 500px;
+    font-weight: 850;
+}
+
+.portada-info p{
+    font-size: 15px;
+    width: 70%;
+}
+
+.portada-info a{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(46, 42, 42);
+    width: 120px;
+    padding: 10px 5px;
+    gap: 25px; 
+    border-radius: 10px;
+    text-align: center;    
+}
+.descripcion p{
+    display:flex;
+    padding:10px 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+    
+    
+
+
+
 
