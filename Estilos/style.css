@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-:root
-body{
-    font-family: 'Poppins';
-}
 
-{ --backround: color
-}
 * {
     margin: 0;
     padding: 0;
@@ -49,6 +43,8 @@ height: 40px;
     border-radius: 10px;
     margin-top: 10px;
     cursor: pointer;}
+    
+    /* main */
 
 main{background-color:rgb(192, 192, 185);
     display:flex;
@@ -56,23 +52,25 @@ main{background-color:rgb(192, 192, 185);
     align-items: center;
     justify-content: center;
     color:rgb(34, 30, 30);
-    width: 100%;
+    
     }
 
 /* portada */
 #portada{
     margin-top: 65px;
     padding: 70px 0;
+    width: 90%;
     max-width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .portada-info{
     display:flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: center;
+    gap: 30px;
     width: 50%;  
 }
 
@@ -87,22 +85,26 @@ main{background-color:rgb(192, 192, 185);
 .portada-info p{
     font-size: 15px;
     width: 70%;
+    max-width: 350px;
+
+}
+.portada-info div a{ 
+    text-decoration: none;
+    border:rgb(34, 30, 30);
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: 600px;
+    background-color: black;
+    color: beige;
+    gap: 50px;
+
 }
 
-.portada-info a{
-    font-weight: bold;
-    color: white;
-    background-color: rgb(46, 42, 42);
-    width: 120px;
-    padding: 10px 5px;
-    gap: 25px; 
-    border-radius: 10px;
-    text-align: center;    
-}
 .descripcion p{
     display:flex;
-    padding:10px 30px;
-    width: 100%;
+    width: 80%;
+    max-width: 1250px;
+    padding: 15px 0;
     align-items: center;
     justify-content: center;
 }
