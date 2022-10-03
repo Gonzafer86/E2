@@ -109,8 +109,59 @@ main{background-color:rgb(192, 192, 185);
     justify-content: center;
 }
     
-    
+#cards{
+    display: flex;
+    padding: 70px 0;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 75px;
+}    
 
+#cards h2{
+    font-size: 35px;
+}
+
+.infocards{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+
+.cards{
+    width: 300px;
+    height: 200px;
+    padding:20px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgb(46, 42, 42);
+    color:rgb(185, 185, 178);
+    border-radius: 5px;
+}
+
+.cards p{
+    padding: 15px, 60px;
+}
+
+footer{
+    background-color: rgb(46, 42, 42);
+    color:rgb(185, 185, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+footer h4{
+    height:40px
+
+}
 
 
 
